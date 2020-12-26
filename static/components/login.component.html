@@ -1,0 +1,27 @@
+<h1>Login</h1>
+<div class="login">
+    <div class="container">
+        <label>E-Mail:</label>
+        <br>
+        <input type="text" placeholder="E-Mail-Adresse eingeben">
+    </div>
+    <br>
+    <div class="container">
+        <label>Passwort:</label>
+        <br>
+        <input type="password" placeholder="Passwort eingeben">
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <button class="loginButton" [routerlink]="/request"><a href="#!/request">Login</a></button>
+        <button class="cancelButton" [routerlink]="/room-overview"><a href="#!/room-overview">Cancel</a></button>
+    </div>
+    <br>
+    <p>Du hast noch keinen Account?</p>
+    <p>Dann registriere dich schnell !</p>
+    <br>
+    <div>
+        <button class="loginButton" [routerlink]="/registration"><a href="#!/registration">Registrieren</a></button>
+    </div>
+</div>
