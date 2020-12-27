@@ -115,6 +115,12 @@ angular.module('dashboard', ['ngRoute'])
 		.when('/room-add', {
 			templateUrl: 'components/room-add.component.html'
 		})
+		.when('/offer-create', {
+			templateUrl: 'components/offer-create.component.html'
+		})
+		.when('/profile', {
+			templateUrl: 'components/profile.component.html'
+		})
 	.otherwise({
 		redirectTo: '/login'
 	});
